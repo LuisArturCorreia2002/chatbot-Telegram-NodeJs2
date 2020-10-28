@@ -32,7 +32,7 @@ bot.on('location', async ctx => {
     const lat = location.latitude
     const lon = location.longitude
     ctx.replyWithLocation(lat,lon)
-    ctx.reply(`https://www.google.com/maps/@${lat}${long}`)
+    ctx.reply(`https://www.google.com/maps/@${lat}${lon}`)
     ctx.reply(`Legal parça! você está em Lat: ${lat} - lon: ${lon}!`)
 })
 
